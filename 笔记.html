@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--
+    主题：Git
+
+    版本管理
+    版本管理就是一种记录文件变化的方式
+
+
+    Git
+    Git是什么
+    Git一个版本管理控制系统（VCS）,它可以在任何时间点，将文档的状态作为更新记录保存起来，可以在任何时间点
+    ，将更新记录恢复
+
+    Git使用
+    使用前的配置
+    在git使用之前，需要告诉git你是谁，在向git仓库中提交时需要要到
+    1.配置提交人的姓名:  git config --global user.name 提交人姓名
+    2.配置提交人的邮箱： git config --global user.email 提交人邮箱
+    3.查看git配置信息：  git config --list
+
+    注意：
+    如果要对配置信息进行修改，重复上述命令即可
+    配置只需要执行一次
+
+    git的基本工作流程
+    git仓库                 暂存区                   工作目录
+    用于存放提交记录          临时存放被修改的文件       被git管理的项目目录
+
+    git使用步骤
+    1.git init  初始化git仓库
+    2.git status 查看文件状态
+    3.git add 文件列表 追踪文件
+    4.git commit -m 提交信息  向仓库提交代码
+    5.git log 查看提交记录
+
+    撤销
+    用暂存去区中的文件覆盖工作目录中的文件：git checkout 文件
+    将文件从暂存区中删除：git rm --cached 文件
+    将git仓库中指定的跟新记录恢复出来，并且覆盖暂存区和工作目录：git rest --head commitID
+
+-->
+</body>
+</html>
